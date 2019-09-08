@@ -1,0 +1,16 @@
+base {
+        log_info = on;
+        daemon = on;
+        log_debug = on;
+        log = "file:/var/log/redsocks.log";
+        redirector = iptables;
+ }
+
+redsocks {
+        local_port = 12345;
+        ip = 127.0.0.1;
+        local_ip = 0.0.0.0;
+        disclose_src = false;
+        type = socks5;
+        port = 1080;
+ }
