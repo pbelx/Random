@@ -1,0 +1,10 @@
+{
+    "server":"website",
+    "server_port":443,
+    "local_address":"0.0.0.0",
+    "local_port":1080,
+    "password":"blaa",
+    
+    "plugin":"v2ray-plugin",
+    "plugin_opts":"tls;host=website;log=debug"
+}
