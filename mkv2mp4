@@ -1,0 +1,2 @@
+#convert mkv to mp4 file type..
+for i in *.mkv; do ffmpeg -i "$i" -vcodec copy -acodec copy "${i%.*}.mp4"; done
