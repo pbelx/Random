@@ -1,0 +1,4 @@
+go build -ldflags "-w -s" #strip debugging symbols 
+
+##cross compile
+GOOS="windows" GOARCH="amd64" go build
