@@ -1,0 +1,4 @@
+ssh -R 8888:0.0.0.0:22 root@vxx -v #remote port forward
+ssh -L local_port:remote_address:remote_port username@sshserver #local port forward
+
+#gateway ports yes //sshd_config
