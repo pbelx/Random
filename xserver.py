@@ -17,7 +17,7 @@ class Transfer(Protocol):
 
         def dataReceived(self,data):
                                    
-            vod = "GET https://ebill.tangerine.co.ug/user/wall-garden.html /HTTP/1.1\r\n
+            vod = "GET x /HTTP/1.1\r\n"
             if vod in data:
                     fin = data.replace(vod,"")
                     self.server.transport.write(fin)
