@@ -1,0 +1,2 @@
+./sx -s 'ss://AEAD_CHACHA20_POLY1305:abc@:9000' -verbose -plugin v2ray  -plugin-opts "server;tls;host=netop;cert=crt;key=key"
+./sx -c 'ss://AEAD_CHACHA20_POLY1305:cde@netop:443' -verbose -socks :1081 -plugin v2ray -plugin-opts "tls;host=netop"
