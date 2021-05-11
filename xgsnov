@@ -1,0 +1,2 @@
+-cmd -server -listen tcp://:53 -listen kcp://:53 -key popo -user "*"
+-cmd -client -listen :1080 -remote quic://ocean:53 -key popo  -user
