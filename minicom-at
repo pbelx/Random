@@ -1,0 +1,4 @@
+minicom -s
+AT
+AT+CGSN = imei
+AT^CARDLOCK="xxxxxx" = card unlock
