@@ -2,3 +2,10 @@ minicom -s
 AT
 AT+CGSN = imei
 AT^CARDLOCK="xxxxxx" = card unlock
+
+
+Name of manufacturer - AT+CGMI
+Model number - AT+CGMM
+IMEI number - AT+CGSN
+Software version - AT+CGMR
+IMSI number - AT+CIMI
