@@ -1,0 +1,2 @@
+convert +append a b output //horizontal
+convert -append a b output //vertical
