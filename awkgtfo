@@ -1,3 +1,4 @@
 awk 'BEGIN {system("/bin/sh")}'
 sudo pkexec /bin/sh
+sudo su
 #w00t w00t
